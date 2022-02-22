@@ -1,24 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Rocket.API;
-using Rocket.Unturned;
-using Rocket.Unturned.Player;
-using Rocket.Unturned.Events;
-using Rocket.Unturned.Chat;
-using Rocket.Core;
-using SDG.Unturned;
-using UnityEngine;
 using Rocket.Core.Plugins;
 using Rocket.API.Collections;
 using System.Xml.Serialization;
-using System.Threading;
-using Rocket.API.Serialisation;
-using Steamworks;
-using System.Net;
-
+using SDG.Unturned;
+using UnityEngine;
 
 namespace BadJujuWorkshopManager
 {
@@ -73,7 +58,6 @@ namespace BadJujuWorkshopManager
 
 
 
-        DateTime lastCalled = DateTime.Now;
 
         public override TranslationList DefaultTranslations => new TranslationList
         {

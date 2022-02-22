@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31313.79
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadJujuWorkshopManager", "RCapture\BadJujuWorkshopManager.csproj", "{A85119B5-C68E-4F1C-B05E-7D8A9805E046}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadJujuWorkshopManager", "BadJujuWorkshopManager.csproj", "{A85119B5-C68E-4F1C-B05E-7D8A9805E046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E6F8A751-003A-46A3-9F7C-B12513B836D3}
+		SolutionGuid = {24A7788E-79BF-4406-8621-4B4124BDB154}
 	EndGlobalSection
 EndGlobal
