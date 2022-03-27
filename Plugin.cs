@@ -9,10 +9,7 @@ namespace BadJujuWorkshopManager
 {
     public class Plugin : RocketPlugin<Config>
     {
-
-        public uint newids;
-
-       
+        public uint newids;      
         public class Mod
         {
             [XmlAttribute]
@@ -22,8 +19,6 @@ namespace BadJujuWorkshopManager
             [XmlAttribute]
             public string time;
 
-           
-
             public Mod(ulong Id, string Description, string time)
             {
                 this.Id = Id;
@@ -31,9 +26,7 @@ namespace BadJujuWorkshopManager
                 this.time = time;
             }
           
-    public  Mod() { }
-
-            
+    public  Mod() { }          
         }
         public class Map
         {
@@ -41,23 +34,13 @@ namespace BadJujuWorkshopManager
             public string name;
             [XmlAttribute]
             public string time;
-
-
-
             public Map(string name, string time)
             {
-                this.name = name;
-             
+                this.name = name;   
                 this.time = time;
             }
-
             public Map() { }
-
-
         }
-
-
-
 
         public override TranslationList DefaultTranslations => new TranslationList
         {
@@ -74,8 +57,8 @@ namespace BadJujuWorkshopManager
             Console.WriteLine("Plugin was load succesfully", Color.green);
             Console.WriteLine("Plugin was created by BadJuju", Color.green);
             Console.WriteLine("If yoy have some qeustions please write in discord BadJuju#8608", Color.green);
-
             DateTime data = DateTime.Now;
+            Instance = this;
             DayOfWeek datas = data.DayOfWeek;
             foreach (Map map in Configuration.Instance.Maps)
             {
@@ -144,11 +127,7 @@ namespace BadJujuWorkshopManager
                     WorkshopDownloadConfig.getOrLoad().File_IDs.Add(mod.Id);
                 }
                
-            }
-
-
-            Instance = this;
-            
+            }  
 
         }
 
